@@ -1,0 +1,31 @@
+# Data files — too large for GitHub
+data/raw/
+data/processed/
+data/features/
+
+# Model binaries
+models/saved_models/
+models/checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large files
+*.pkl
+*.h5
+*.bz2
+*.tar
+*.zip
